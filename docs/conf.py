@@ -233,6 +233,7 @@ html_show_sphinx = True
 htmlhelp_basename = "Climwebdoc"
 
 # -- Options for LaTeX output ---------------------------------------------
+language = os.environ.get("READTHEDOCS_LANGUAGE", "en")
 
 if language == "ar":
     latex_engine = "xelatex"
