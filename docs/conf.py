@@ -243,6 +243,7 @@ if language == "ar":
     \usepackage{fontspec}
     \usepackage{polyglossia}
     \usepackage{bidi}
+    \usepackage{graphicx}
 
     \usepackage{fontspec}
     \usepackage{polyglossia}
@@ -258,6 +259,8 @@ if language == "ar":
     \setmainfont{FreeSerif}
     \setsansfont{FreeSerif}
     \setmonofont{FreeSerif}
+    \setkeys{Gin}{width=\linewidth,keepaspectratio}
+    \AtBeginEnvironment{figure}{\centering}
 
     % Arabic fonts
     \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
@@ -265,8 +268,6 @@ if language == "ar":
     \newfontfamily\arabicfonttt[Script=Arabic]{FreeSerif}
 
     \geometry{a4paper, margin=1in, twoside}
-
-    \raggedleft
 
     \titleformat{\section}{\Large\bfseries\raggedleft}{\thesection}{1em}{}
     \titleformat{\subsection}{\large\bfseries\raggedleft}{\thesubsection}{1em}{}
