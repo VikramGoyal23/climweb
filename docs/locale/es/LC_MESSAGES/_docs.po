@@ -3542,10 +3542,10 @@ msgstr ""
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26
 msgid ""
-"![CAP Hazard Types](../../_static/images/cap/CAP_hazard_types.png \"CAP "
+"![CAP Hazard Types](../../_static/images/cap/CAP_Hazard_types.png \"CAP "
 "Hazard Types\")"
 msgstr ""
-"![Tipos de peligros CAP](../../_static/images/cap/CAP_hazard_types.png "
+"![Tipos de peligros CAP](../../_static/images/cap/CAP_Hazard_types.png "
 "\"Tipos de peligros CAP\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26

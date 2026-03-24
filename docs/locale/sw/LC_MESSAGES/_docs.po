@@ -3467,10 +3467,10 @@ msgstr ""
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26
 msgid ""
-"![CAP Hazard Types](../../_static/images/cap/CAP_hazard_types.png \"CAP "
+"![CAP Hazard Types](../../_static/images/cap/CAP_Hazard_types.png \"CAP "
 "Hazard Types\")"
 msgstr ""
-"![Aina za Hatari za CAP](../../_static/images/cap/CAP_hazard_types.png "
+"![Aina za Hatari za CAP](../../_static/images/cap/CAP_Hazard_types.png "
 "\"Aina za Hatari za CAP\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26

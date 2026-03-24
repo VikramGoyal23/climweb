@@ -3181,10 +3181,10 @@ msgstr ""
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26
 msgid ""
-"![CAP Hazard Types](../../_static/images/cap/CAP_hazard_types.png \"CAP "
+"![CAP Hazard Types](../../_static/images/cap/CAP_Hazard_types.png \"CAP "
 "Hazard Types\")"
 msgstr ""
-"![CAP የአደጋ ዓይነቶች](../../_static/images/cap/CAP_hazard_types.png \"CAP የአደጋ "
+"![CAP የአደጋ ዓይነቶች](../../_static/images/cap/CAP_Hazard_types.png \"CAP የአደጋ "
 "ዓይነቶች\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26

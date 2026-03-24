@@ -23,7 +23,7 @@ These include:
 Here the NMHSs input the different types of hazards they monitor. They can select the hazards from a WMO predefined list
 of hazards or create a new custom hazard/event type. Each hazard type can be associated with an Icon
 
-![CAP Hazard Types](../../_static/images/cap/CAP_hazard_types.png "CAP Hazard Types")
+![CAP Hazard Types](../../_static/images/cap/CAP_Hazard_types.png "CAP Hazard Types")
 
 ## Assigning Event Codes
 
