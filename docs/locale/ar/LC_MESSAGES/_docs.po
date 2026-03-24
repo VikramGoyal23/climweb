@@ -3450,7 +3450,7 @@ msgid ""
 "\"CAP Predefined Areas\")"
 msgstr ""
 "![مناطق CAP المحددة "
-"مسبقًا](../../_static/images/cap/CAP_predefified_areas.png \"مناطق CAP "
+"مسبقًا](../../_static/images/cap/CAP_predefined_areas.png \"مناطق CAP "
 "المحددة مسبقًا\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:49
@@ -5427,7 +5427,7 @@ msgstr ""
 msgid ""
 "![Rating](../../_static/images/surveys/question-types-rating.png \"Rating\")"
 msgstr ""
-"![التقييم](../../_static/images/surveys/question-types-rated.png "
+"![التقييم](../../_static/images/surveys/question-types-rating.png "
 "\"التقييم\")"
 
 #: ../../_docs/manage_content_assets/Manage-Surveys.md:51

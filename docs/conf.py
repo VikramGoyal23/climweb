@@ -238,16 +238,23 @@ latex_engine = "xelatex"
 
 latex_elements = {
     "preamble": r"""
-    \usepackage{fontspec}
-    \usepackage{polyglossia}
+\usepackage{fontspec}
+\usepackage{polyglossia}
 
-    \setmainlanguage{english}
-    \setotherlanguage{arabic}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
 
-    \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
-    \newfontfamily\arabicfontsf[Script=Arabic]{FreeSerif}
-    \newfontfamily\arabicfonttt[Script=Arabic]{FreeSerif}
-    """
+% Set a font that supports EVERYTHING
+\setmainfont{FreeSerif}
+\setsansfont{FreeSerif}
+\setmonofont{FreeSerif}
+
+% Arabic fonts
+\newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
+\newfontfamily\arabicfontsf[Script=Arabic]{FreeSerif}
+\newfontfamily\arabicfonttt[Script=Arabic]{FreeSerif}
+
+"""
 }
 
 # latex_elements = {
