@@ -234,28 +234,52 @@ htmlhelp_basename = "Climwebdoc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_engine = "xelatex"
+if language == "ar":
+    latex_engine = "xelatex"
 
-latex_elements = {
-    "preamble": r"""
-\usepackage{fontspec}
-\usepackage{polyglossia}
+    latex_elements = {
+        "preamble": r"""
+    \usepackage{fontspec}
+    \usepackage{polyglossia}
+    \usepackage{bidi}
 
-\setmainlanguage{english}
-\setotherlanguage{arabic}
+    \usepackage{fontspec}
+    \usepackage{polyglossia}
+    \usepackage{bidi}
+    \usepackage{titlesec}
+    \usepackage{tocloft}
+    \usepackage{geometry}
+    \usepackage{enumitem}
 
-% Set a font that supports EVERYTHING
-\setmainfont{FreeSerif}
-\setsansfont{FreeSerif}
-\setmonofont{FreeSerif}
+    \setmainlanguage{arabic}
+    \setotherlanguage{english}
 
-% Arabic fonts
-\newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
-\newfontfamily\arabicfontsf[Script=Arabic]{FreeSerif}
-\newfontfamily\arabicfonttt[Script=Arabic]{FreeSerif}
+    \setmainfont{FreeSerif}
+    \setsansfont{FreeSerif}
+    \setmonofont{FreeSerif}
 
-"""
-}
+    % Arabic fonts
+    \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
+    \newfontfamily\arabicfontsf[Script=Arabic]{FreeSerif}
+    \newfontfamily\arabicfonttt[Script=Arabic]{FreeSerif}
+
+    \geometry{a4paper, margin=1in, twoside}
+
+    \raggedleft
+
+    \titleformat{\section}{\Large\bfseries\raggedleft}{\thesection}{1em}{}
+    \titleformat{\subsection}{\large\bfseries\raggedleft}{\thesubsection}{1em}{}
+
+    \renewcommand{\cftsecfont}{\raggedleft}
+    \renewcommand{\cftsecpagefont}{\raggedleft}
+
+    \setlist[itemize]{align=right}
+    \setlist[enumerate]{align=right}
+
+    """
+    }
+
+
 
 # latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
