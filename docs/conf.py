@@ -240,49 +240,44 @@ if language == "ar":
 
     latex_elements = {
         "preamble": r"""
-    \usepackage{fontspec}
-    \usepackage{polyglossia}
-    \usepackage{bidi}
-    \usepackage{graphicx}
+        \usepackage{fontspec}
+        \usepackage{polyglossia}
+        \usepackage{bidi}
+        \usepackage{titlesec}
+        \usepackage{tocloft}
+        \usepackage{geometry}
+        \usepackage{enumitem}
+        \usepackage{graphicx}
+        \usepackage{adjustbox}
 
-    \usepackage{fontspec}
-    \usepackage{polyglossia}
-    \usepackage{bidi}
-    \usepackage{titlesec}
-    \usepackage{tocloft}
-    \usepackage{geometry}
-    \usepackage{enumitem}
+        \setmainlanguage{arabic}
+        \setotherlanguage{english}
 
-    \setmainlanguage{arabic}
-    \setotherlanguage{english}
+        \setmainfont{FreeSerif}
+        \setsansfont{FreeSerif}
+        \setmonofont{FreeSerif}
 
-    \setmainfont{FreeSerif}
-    \setsansfont{FreeSerif}
-    \setmonofont{FreeSerif}
-    \setkeys{Gin}{width=\linewidth,keepaspectratio}
-    \AtBeginEnvironment{figure}{\centering}
+        \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
 
-    % Arabic fonts
-    \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
-    \newfontfamily\arabicfontsf[Script=Arabic]{FreeSerif}
-    \newfontfamily\arabicfonttt[Script=Arabic]{FreeSerif}
+        \geometry{a4paper, margin=1in, twoside}
 
-    \geometry{a4paper, margin=1in, twoside}
+        % Fix images
+        \setkeys{Gin}{width=\linewidth,keepaspectratio}
+        \AtBeginEnvironment{figure}{\centering}
 
-    \titleformat{\section}{\Large\bfseries\raggedleft}{\thesection}{1em}{}
-    \titleformat{\subsection}{\large\bfseries\raggedleft}{\thesubsection}{1em}{}
+        % Headings
+        \titleformat{\section}{\Large\bfseries\raggedleft}{\thesection}{1em}{}
+        \titleformat{\subsection}{\large\bfseries\raggedleft}{\thesubsection}{1em}{}
 
-    \renewcommand{\cftsecfont}{\raggedleft}
-    \renewcommand{\cftsecpagefont}{\raggedleft}
+        % TOC
+        \renewcommand{\cftsecfont}{\raggedleft}
+        \renewcommand{\cftsecpagefont}{\raggedleft}
 
-    \setlist[itemize]{align=right}
-    \setlist[enumerate]{align=right}
-
-    """
-    }
-
-
-
+        % Lists
+        \setlist[itemize]{align=right}
+        \setlist[enumerate]{align=right}
+        """
+            }
 # latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 # 'papersize': 'a4paper',
