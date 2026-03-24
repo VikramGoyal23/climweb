@@ -234,6 +234,22 @@ htmlhelp_basename = "Climwebdoc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
+latex_engine = "xelatex"
+
+latex_elements = {
+    "preamble": r"""
+    \usepackage{fontspec}
+    \usepackage{polyglossia}
+
+    \setmainlanguage{english}
+
+    \setotherlanguage{arabic}
+    \newfontfamily\arabicfont{FreeSerif}
+
+    \newfontfamily\ethiopicfont{FreeSerif}
+    """
+}
+
 # latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 # 'papersize': 'a4paper',
