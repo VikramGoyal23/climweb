@@ -8825,7 +8825,7 @@ msgid ""
 "\"Vacancies page\")"
 msgstr ""
 "![صفحة الوظائف "
-"الشاغرة](../../../_static/images/vacagency/vacancy_item_sections.png "
+"الشاغرة](../../../_static/images/vacancies/vacancy_item_sections.png "
 "\"صفحة الوظائف الشاغرة\")"
 
 #: ../../_docs/manage_settings/Configuring-workflows-for-moderation.md:1
