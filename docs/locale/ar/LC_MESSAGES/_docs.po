@@ -8659,7 +8659,7 @@ msgid ""
 "List page\")"
 msgstr ""
 "![صفحة قائمة الوظائف "
-"الشاغرة](../../../_static/images/vacaency/vacancy_sections.png \"صفحة قائمة "
+"الشاغرة](../../../_static/images/vacancies/vacancy_sections.png \"صفحة قائمة "
 "الوظائف الشاغرة\")"
 
 #: ../../_docs/manage_pages/manage_organisation/Manage-Vacancies.md:22
@@ -8688,7 +8688,7 @@ msgid ""
 "\"Vacancies page\")"
 msgstr ""
 "![صفحة الوظائف "
-"الشاغرة](../../../_static/images/vacaency/add_vacancy_item.png \"صفحة "
+"الشاغرة](../../../_static/images/vacancies/add_vacancy_item.png \"صفحة "
 "الوظائف الشاغرة\")"
 
 #: ../../_docs/manage_pages/manage_organisation/Manage-Vacancies.md:28
@@ -8703,7 +8703,7 @@ msgid ""
 "\"Vacancies page\")"
 msgstr ""
 "![صفحة الوظائف "
-"الشاغرة](../../../_static/images/vacagency/vacancy_item_sections.png \"صفحة "
+"الشاغرة](../../../_static/images/vacancies/vacancy_item_sections.png \"صفحة "
 "الوظائف الشاغرة\")"
 
 #: ../../_docs/manage_settings/Configuring-workflows-for-moderation.md:1

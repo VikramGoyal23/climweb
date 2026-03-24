@@ -242,11 +242,11 @@ latex_elements = {
     \usepackage{polyglossia}
 
     \setmainlanguage{english}
-
     \setotherlanguage{arabic}
-    \newfontfamily\arabicfont{FreeSerif}
 
-    \newfontfamily\ethiopicfont{FreeSerif}
+    \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
+    \newfontfamily\arabicfontsf[Script=Arabic]{FreeSerif}
+    \newfontfamily\arabicfonttt[Script=Arabic]{FreeSerif}
     """
 }
 
