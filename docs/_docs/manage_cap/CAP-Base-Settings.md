@@ -67,7 +67,7 @@ To add one or more languages, the Language code such as fr and Language name suc
 useful when creating multiple Alert Infos for a CAP Alert where one alert info corresponds to another one Alert info by
 its translated language.
 
-![CAP Languages](../../_static/images/cap/CAP_languages.png "CAP Languages")
+![CAP Languages](../../_static/images/cap/cap_languages.png "CAP Languages")
 
 ---
 

@@ -3509,9 +3509,9 @@ msgstr ""
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:70
 msgid ""
-"![CAP Languages](../../_static/images/cap/CAP_languages.png \"CAP "
+"![CAP Languages](../../_static/images/cap/cap_languages.png \"CAP "
 "Languages\")"
-msgstr "![لغات CAP](../../_static/images/cap/CAP_languages.png \"لغات CAP\")"
+msgstr "![لغات CAP](../../_static/images/cap/cap_languages.png \"لغات CAP\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:70
 msgid "CAP Languages"

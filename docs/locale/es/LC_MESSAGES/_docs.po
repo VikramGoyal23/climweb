@@ -3693,10 +3693,10 @@ msgstr ""
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:70
 msgid ""
-"![CAP Languages](../../_static/images/cap/CAP_languages.png \"CAP "
+"![CAP Languages](../../_static/images/cap/cap_languages.png \"CAP "
 "Languages\")"
 msgstr ""
-"![Idiomas CAP](../../_static/images/cap/CAP_languages.png \"Idiomas CAP\")"
+"![Idiomas CAP](../../_static/images/cap/cap_languages.png \"Idiomas CAP\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:70
 msgid "CAP Languages"
