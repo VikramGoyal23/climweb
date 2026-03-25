@@ -237,47 +237,57 @@ language = os.environ.get("READTHEDOCS_LANGUAGE", "en")
 
 if language == "ar":
     latex_engine = "xelatex"
-
     latex_elements = {
         "preamble": r"""
-        \usepackage{fontspec}
-        \usepackage{polyglossia}
-        \usepackage{bidi}
-        \usepackage{titlesec}
-        \usepackage{tocloft}
-        \usepackage{geometry}
-        \usepackage{enumitem}
-        \usepackage{graphicx}
-        \usepackage{adjustbox}
+            \usepackage{fontspec}
+            \usepackage{polyglossia}
+            \usepackage{bidi}
+            \usepackage{graphicx}
+            \usepackage{adjustbox}
+            \usepackage{etoolbox}
 
-        \setmainlanguage{arabic}
-        \setotherlanguage{english}
+            \setmainlanguage{arabic}
+            \setotherlanguage{english}
 
-        \setmainfont{FreeSerif}
-        \setsansfont{FreeSerif}
-        \setmonofont{FreeSerif}
+            \setmainfont{FreeSerif}
+            \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
 
-        \newfontfamily\arabicfont[Script=Arabic]{FreeSerif}
+            \geometry{a4paper, margin=1in, twoside}
 
-        \geometry{a4paper, margin=1in, twoside}
+            % FIX IMAGES (KEY PART)
+            \setkeys{Gin}{width=\linewidth,keepaspectratio}
 
-        % Fix images
-        \setkeys{Gin}{width=\linewidth,keepaspectratio}
-        \AtBeginEnvironment{figure}{\centering}
+            \AtBeginEnvironment{figure}{\begin{LTR}\centering}
+            \AtEndEnvironment{figure}{\end{LTR}}
 
-        % Headings
-        \titleformat{\section}{\Large\bfseries\raggedleft}{\thesection}{1em}{}
-        \titleformat{\subsection}{\large\bfseries\raggedleft}{\thesubsection}{1em}{}
-
-        % TOC
-        \renewcommand{\cftsecfont}{\raggedleft}
-        \renewcommand{\cftsecpagefont}{\raggedleft}
-
-        % Lists
-        \setlist[itemize]{align=right}
-        \setlist[enumerate]{align=right}
+            \AtBeginEnvironment{figure*}{\begin{LTR}\centering}
+            \AtEndEnvironment{figure*}{\end{LTR}}
         """
-            }
+    }
+    elif language == "am":
+        latex_engine = "xelatex"
+        latex_elements = {
+        "preamble": r"""
+            \usepackage{fontspec}
+            \usepackage{polyglossia}
+            \usepackage{graphicx}
+            \usepackage{adjustbox}
+            \usepackage{geometry}
+
+            \setmainlanguage{amharic}
+            \setotherlanguage{english}
+
+            % Ethiopic font (VERY important)
+            \setmainfont{FreeSerif}
+            \newfontfamily\ethiopicfont{FreeSerif}
+
+            \geometry{a4paper, margin=1in}
+
+            % Fix images
+            \setkeys{Gin}{width=\linewidth,keepaspectratio}
+            \AtBeginEnvironment{figure}{\centering}
+        """
+    }
 # latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 # 'papersize': 'a4paper',
