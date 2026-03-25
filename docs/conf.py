@@ -264,7 +264,7 @@ if language == "ar":
             \AtEndEnvironment{figure*}{\end{LTR}}
         """
     }
-    elif language == "am":
+elif language == "am":
         latex_engine = "xelatex"
         latex_elements = {
         "preamble": r"""

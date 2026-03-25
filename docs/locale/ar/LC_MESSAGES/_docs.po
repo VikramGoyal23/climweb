@@ -7,15 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-<<<<<<< HEAD
-"Project-Id-Version: ClimWeb Documentation 1.0.9-18-gcd524134\n"
+"Project-Id-Version: ClimWeb Documentation 1.0.1-34-g39c6682a\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-24 22:38+0300\n"
-=======
-"Project-Id-Version: ClimWeb Documentation 1.0.9-8-gce74c2a4\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-23 18:35+0300\n"
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
+"POT-Creation-Date: 2025-09-05 17:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ar <LL@li.org>\n"
@@ -137,11 +131,7 @@ msgstr ""
 
 #: ../../_docs/Find-Your-Way-Around.md:35
 msgid "**2. Awaiting your review**"
-<<<<<<< HEAD
-msgstr "**2. في انتظار رأيك**"
-=======
-msgstr "**2. في انتظار رأيك **"
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
+msgstr ""
 
 #: ../../_docs/Find-Your-Way-Around.md:37
 msgid ""
@@ -426,18 +416,6 @@ msgid ""
 "and fully migrate their website to the new ClimWeb. This ensures a smooth "
 "and well-managed transition process."
 msgstr ""
-"في الحالات التي يكون فيها لدى المرفق الوطني للأرصاد الجوية والهيدرولوجيا "
-"(NMHS) موقع ويب موجود بالفعل ولكنه مهتم باختبار ClimWeb الجديد، يكون لديه "
-"خيار تثبيته وتشغيله ** بالتزامن مع نظامه الحالي ** لمدة محددة. وهذا يتيح لهم"
-" إجراء تقييم شامل وتجربة الوظائف التي يقدمها موقع ClimWeb الجديد. وبمجرد أن "
-"يشعر المرفق الوطني للأرصاد الجوية والهيدرولوجيا (NMHSs) بالرضا والارتياح "
-"تجاه ClimWeb الجديد، يمكن اعتماد نهج تدريجي للانتقال التدريجي والانتقال "
-<<<<<<< HEAD
-"الكامل لموقعه على الويب إلى ClimWeb الجديد. وهذا يضمن عملية انتقال سلسة "
-=======
-"الكامل لموقعه على الإنترنت إلى ClimWeb الجديد. وهذا يضمن عملية انتقال سلسة "
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"وجيدة الإدارة."
 
 #: ../../_docs/Frequently-Asked-Questions.md:14
 msgid "**4. What does ‘ClimWeb’ mean?**"
@@ -471,19 +449,6 @@ msgid ""
 "users to easily locate content and utilize the ClimWeb **without the need "
 "for specialized IT skills**."
 msgstr ""
-"كان أحد الجوانب الأساسية التي تم أخذها في الاعتبار أثناء مرحلة التصميم "
-"والتطوير لـ ClimWeb هو إنشاء نظام واضح ومحدد جيدًا لإدارة المحتوى وبنية "
-<<<<<<< HEAD
-"الصفحة. وشمل ذلك إنشاء **واجهة سهلة الاستخدام ذات تصميم حديث وميزات بديهية**"
-" تهدف إلى تزويد المستخدمين بتجربة سلسة وممتعة. كان الهدف هو تمكين المستخدمين"
-" من تحديد موقع المحتوى بسهولة واستخدام ClimWeb **دون الحاجة إلى مهارات "
-"تكنولوجيا المعلومات المتخصصة**."
-=======
-"الصفحة. وتضمن ذلك إنشاء **واجهة سهلة الاستخدام ذات تصميم حديث وميزات "
-"بديهية** تهدف إلى تزويد المستخدمين بتجربة سلسة وممتعة. كان الهدف هو تمكين "
-"المستخدمين من تحديد موقع المحتوى بسهولة واستخدام ClimWeb ** دون الحاجة إلى "
-"مهارات تكنولوجيا المعلومات المتخصصة **."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/Frequently-Asked-Questions.md:20
 msgid "**6. Security risks?**"
@@ -2372,19 +2337,6 @@ msgid ""
 "context, is a set of code that interacts with various parts of the "
 "framework."
 msgstr ""
-<<<<<<< HEAD
-"تشتمل التطبيقات على مجموعة من نماذج Django، وطرق العرض، والقوالب، وعلامات "
-"القالب، والملفات الثابتة، وعناوين URL، والبرامج الوسيطة وما إلى ذلك. ثم يتم "
-"توصيلها بالمشروع باستخدام إعدادات INSTALLED_APPS. وبالتالي فإن التطبيق، في "
-"هذا السياق، هو عبارة عن مجموعة من التعليمات البرمجية التي تتفاعل مع أجزاء "
-"مختلفة من الإطار."
-=======
-"تتضمن التطبيقات مجموعة من نماذج Django، وطرق العرض، والقوالب، وعلامات "
-"القالب، والملفات الثابتة، وعناوين URL، والبرامج الوسيطة وما إلى ذلك. ويتم "
-"بعد ذلك توصيلها بالمشروع باستخدام إعدادات INSTALLED_APPS. وبالتالي فإن "
-"التطبيق، في هذا السياق، هو عبارة عن مجموعة من التعليمات البرمجية التي تتفاعل"
-" مع أجزاء مختلفة من الإطار."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/Technology.md:60
 msgid ""
@@ -3389,18 +3341,12 @@ msgid ""
 "select the hazards from a WMO predefined list of hazards or create a new "
 "custom hazard/event type. Each hazard type can be associated with an Icon"
 msgstr ""
-"تقوم المرافق الوطنية للأرصاد الجوية والهيدرولوجيا (NMHSs) هنا بإدخال الأنواع"
-" المختلفة من المخاطر التي ترصدها. ويمكنهم اختيار المخاطر من قائمة المخاطر "
-"المحددة مسبقًا للمنظمة (WMO) أو إنشاء نوع جديد مخصص من المخاطر/الأحداث. يمكن"
-" ربط كل نوع خطر بأيقونة"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26
 msgid ""
 "![CAP Hazard Types](../../_static/images/cap/CAP_Hazard_types.png \"CAP "
 "Hazard Types\")"
 msgstr ""
-"![أنواع مخاطر CAP](../../_static/images/cap/CAP_Hazard_types.png \"أنواع "
-"مخاطر CAP\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26
 msgid "CAP Hazard Types"
@@ -3478,13 +3424,6 @@ msgid ""
 "![CAP Predefined Areas](../../_static/images/cap/CAP_predefined_areas.png "
 "\"CAP Predefined Areas\")"
 msgstr ""
-"![مناطق CAP المحددة "
-<<<<<<< HEAD
-"مسبقًا](../../_static/images/cap/CAP_predefined_areas.png \"مناطق CAP "
-=======
-"مسبقًا](../../_static/images/cap/CAP_predefified_areas.png \"مناطق CAP "
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"المحددة مسبقًا\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:49
 msgid "CAP Predefined Areas"
@@ -3544,11 +3483,7 @@ msgstr ""
 msgid ""
 "![CAP Languages](../../_static/images/cap/cap_languages.png \"CAP "
 "Languages\")"
-<<<<<<< HEAD
-msgstr "![لغات CAP](../../_static/images/cap/cap_languages.png \"لغات CAP\")"
-=======
-msgstr "![لغات CAP](../../_static/images/cap/CAP_languages.png \"لغات CAP\")"
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
+msgstr ""
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:70
 msgid "CAP Languages"
@@ -5144,13 +5079,6 @@ msgid ""
 "as often as possible. This prevents you from accidentally exiting the edit "
 "page and losing your changes."
 msgstr ""
-<<<<<<< HEAD
-"على الرغم من أن هذا ممكن، فمن المستحسن حفظ صفحتك كمسودة قدر الإمكان. وهذا "
-"يمنعك من الخروج عن طريق الخطأ من صفحة التعديل وفقدان التغييرات."
-=======
-"على الرغم من أن هذا ممكن، فمن المستحسن حفظ صفحتك كمسودة قدر الإمكان. ويمنعك "
-"هذا من الخروج عن طريق الخطأ من صفحة التعديل وفقدان تغييراتك."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_content_assets/Manage-Surveys.md:1
 #: ../../_docs/manage_content_assets/Manage-Surveys.md:26
@@ -5469,12 +5397,6 @@ msgstr ""
 msgid ""
 "![Rating](../../_static/images/surveys/question-types-rating.png \"Rating\")"
 msgstr ""
-<<<<<<< HEAD
-"![التقييم](../../_static/images/surveys/question-types-rating.png "
-=======
-"![التقييم](../../_static/images/surveys/question-types-rated.png "
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"\"التقييم\")"
 
 #: ../../_docs/manage_content_assets/Manage-Surveys.md:51
 msgid "Rating"
@@ -6235,19 +6157,9 @@ msgstr ""
 #: ../../_docs/manage_pages/Manage-News.md:75
 msgid ""
 "**Relevant Projects** - select from previously prepared projects. Please "
-<<<<<<< HEAD
-"refer [Manage Projects](manage_organisation/Manage-Projects) to guide on "
-"creation of projects."
+"refer [Manage Projects](./Manage-Projects) to guide on creation of "
+"projects."
 msgstr ""
-"**المشاريع ذات الصلة** - اختر من المشاريع المعدة مسبقًا. يرجى الرجوع إلى "
-"[إدارة المشاريع](manage_organisation/Manage-Projects) لتوجيهك حول إنشاء "
-"المشاريع."
-=======
-"refer [Manage Projects](./Manage-Projects) to guide on creation of projects."
-msgstr ""
-"**المشاريع ذات الصلة** - اختر من المشاريع المعدة مسبقًا. يرجى الرجوع إلى "
-"[إدارة المشاريع](./Manage-Projects) لتوجيهك حول إنشاء المشاريع."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_pages/Manage-News.md:77
 msgid "**Post date** - the date the news was published"
@@ -6696,21 +6608,10 @@ msgstr "إضافة صفحة عنصر المنتج"
 #: ../../_docs/manage_pages/Manage-Products.md:117
 msgid "The 'products' input accepts two options:"
 msgstr "يقبل إدخال \"المنتجات\" خيارين:"
-<<<<<<< HEAD
 
 #: ../../_docs/manage_pages/Manage-Products.md:119
 msgid "Map/Image Product"
 msgstr "منتج الخريطة/الصورة"
-=======
-
-#: ../../_docs/manage_pages/Manage-Products.md:118
-msgid "Map/Image Product"
-msgstr "منتج الخريطة/الصورة"
-
-#: ../../_docs/manage_pages/Manage-Products.md:119
-msgid "Document/Bulletin Product"
-msgstr "منتج الوثيقة/النشرة"
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_pages/Manage-Products.md:120
 msgid "Document/Bulletin Product"
@@ -6765,27 +6666,12 @@ msgstr ""
 #: ../../_docs/manage_pages/Manage-Products.md:133
 #, python-brace-format
 msgid ""
-<<<<<<< HEAD
-"When adding a new bulletin, you will only need to begin from "
-"{ref}`step-5-creation-of-one-or-more-product-items-for-a-product-page` "
-"section above to upload the document or any related text and images about a "
-"new period."
-msgstr ""
-"عند إضافة نشرة جديدة، لن تحتاج إلا إلى البدء من القسم {ref}`step-5-creation-"
-"of-one-or-more-product-items-for-a-product-page` أعلاه لتحميل المستند أو أي "
-"نصوص وصور ذات صلة حول فترة جديدة."
-=======
 "When adding a new bulletin, you will only need to begin from Step 5: "
 "[Creation of one or more product items for a product page](Manage-"
-"Products#step-5-creation-of-one-or-more-product-items-for-a-product-page) "
-"section above to upload the document or any related text and images about a "
-"new period."
+"Products#step-5-creation-of-one-or-more-product-items-for-a-product-page)"
+" section above to upload the document or any related text and images "
+"about a new period."
 msgstr ""
-"عند إضافة نشرة جديدة، ستحتاج فقط إلى البدء من الخطوة 5: قسم [إنشاء عنصر منتج"
-" واحد أو أكثر لصفحة منتج](Manage-Products#step-5-creation-of-one-or-more-"
-"product-items-for-a-product-page) أعلاه لتحميل المستند أو أي نصوص وصور ذات "
-"صلة حول فترة جديدة."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_pages/Manage-Products.md:136
 msgid "Automatic generation of thumbnails"
@@ -7078,18 +6964,9 @@ msgstr ""
 #: ../../_docs/manage_pages/Manage-Publications.md:83
 msgid ""
 "**Projects Section** - select from previously prepared projects. Please "
-<<<<<<< HEAD
-"refer [Manage Projects](manage_organisation/Manage-Projects) to guide on "
-"creation of projects."
+"refer [Manage Projects](./Manage-Projects) to guide on creation of "
+"projects."
 msgstr ""
-"**قسم المشاريع** - اختر من المشاريع المعدة مسبقاً. يرجى الرجوع إلى [إدارة "
-"المشاريع](manage_organisation/Manage-Projects) لتوجيهك حول إنشاء المشاريع."
-=======
-"refer [Manage Projects](./Manage-Projects) to guide on creation of projects."
-msgstr ""
-"**قسم المشاريع** - اختر من المشاريع المعدة مسبقاً. يرجى الرجوع إلى [إدارة "
-"المشاريع](./Manage-Projects) لتوجيهك حول إنشاء المشاريع."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_pages/Manage-Publications.md:86
 msgid ""
@@ -7432,23 +7309,10 @@ msgstr "ماذا نفعل الأقسام"
 
 #: ../../_docs/manage_pages/Manage-Services.md:85
 msgid ""
-"**Projects Section** - This contains a description of the projects linked to"
-<<<<<<< HEAD
-" the service being edited. Please refer [Manage "
-"Projects](manage_organisation/Manage-Projects) to guide on creation of "
-"projects and linking them to services."
+"**Projects Section** - This contains a description of the projects linked"
+" to the service being edited. Please refer [Manage Projects](./Manage-"
+"Projects) to guide on creation of projects and linking them to services."
 msgstr ""
-"**قسم المشاريع** - يحتوي على وصف للمشاريع المرتبطة بالخدمة التي يتم تحريرها."
-" يرجى الرجوع إلى [إدارة المشاريع](manage_organisation/Manage-Projects) "
-"لتوجيهك حول إنشاء المشاريع وربطها بالخدمات."
-=======
-" the service being edited. Please refer [Manage Projects](./Manage-Projects)"
-" to guide on creation of projects and linking them to services."
-msgstr ""
-"**قسم المشاريع** - يحتوي على وصف للمشاريع المرتبطة بالخدمة التي يتم تحريرها."
-" يرجى الرجوع إلى [إدارة المشاريع](./Manage-Projects) للاسترشاد بها حول إنشاء"
-" المشاريع وربطها بالخدمات."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_pages/Manage-Services.md:87
 msgid ""
@@ -7697,13 +7561,6 @@ msgid ""
 "panel, where you can enable or disable email notifications for other users' "
 "comments on the page."
 msgstr ""
-<<<<<<< HEAD
-"يعرض السهم الموجود على يمين أيقونة التعليقات لوحة إشعارات التعليقات، حيث "
-=======
-"يعرض السهم الموجود على يسار أيقونة التعليقات لوحة إشعارات التعليقات، حيث "
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"يمكنك تمكين أو تعطيل إشعارات البريد الإلكتروني لتعليقات المستخدمين الآخرين "
-"على الصفحة."
 
 #: ../../_docs/manage_pages/index.md:58
 msgid ""
@@ -7999,22 +7856,11 @@ msgstr "إنشاء صفحة حول"
 #: ../../_docs/manage_pages/manage_organisation/Manage-Tenders.md:5
 #: ../../_docs/manage_pages/manage_organisation/Manage-Vacancies.md:5
 msgid ""
-"The creation of this page assumes you have already created an organisation "
-"index page which is the parent page of this page. To create an organisation "
-<<<<<<< HEAD
-"index page, please refer to [Managing Organisation Page](Manage-"
-=======
-"index page, please refer to [Managing Organisation Page](./Manage-"
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"Organisation)."
+"The creation of this page assumes you have already created an "
+"organisation index page which is the parent page of this page. To create "
+"an organisation index page, please refer to [Managing Organisation Page"
+"](./Manage-Organisation)."
 msgstr ""
-"يفترض إنشاء هذه الصفحة أنك قمت بالفعل بإنشاء صفحة فهرس المؤسسة وهي الصفحة "
-"الرئيسية لهذه الصفحة. لإنشاء صفحة فهرس مؤسسة، يرجى الرجوع إلى [إدارة صفحة "
-<<<<<<< HEAD
-"المؤسسة](إدارة المؤسسة)."
-=======
-"المؤسسة](./Manage-Organisation)."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_pages/manage_organisation/Manage-About.md:7
 msgid ""
@@ -8763,13 +8609,6 @@ msgid ""
 "page](../../../_static/images/vacancies/vacancy_sections.png \"Vacancies "
 "List page\")"
 msgstr ""
-"![صفحة قائمة الوظائف "
-<<<<<<< HEAD
-"الشاغرة](../../../_static/images/vacancies/vacancy_sections.png \"صفحة قائمة "
-=======
-"الشاغرة](../../../_static/images/vacaency/vacancy_sections.png \"صفحة قائمة "
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"الوظائف الشاغرة\")"
 
 #: ../../_docs/manage_pages/manage_organisation/Manage-Vacancies.md:22
 msgid ""
@@ -8796,13 +8635,6 @@ msgid ""
 "![Vacancies page](../../../_static/images/vacancies/add_vacancy_item.png "
 "\"Vacancies page\")"
 msgstr ""
-"![صفحة الوظائف "
-<<<<<<< HEAD
-"الشاغرة](../../../_static/images/vacancies/add_vacancy_item.png \"صفحة "
-=======
-"الشاغرة](../../../_static/images/vacaency/add_vacancy_item.png \"صفحة "
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"الوظائف الشاغرة\")"
 
 #: ../../_docs/manage_pages/manage_organisation/Manage-Vacancies.md:28
 #: ../../_docs/manage_pages/manage_organisation/Manage-Vacancies.md:32
@@ -8815,13 +8647,6 @@ msgid ""
 "page](../../../_static/images/vacancies/vacancy_item_sections.png "
 "\"Vacancies page\")"
 msgstr ""
-"![صفحة الوظائف "
-<<<<<<< HEAD
-"الشاغرة](../../../_static/images/vacancies/vacancy_item_sections.png \"صفحة "
-=======
-"الشاغرة](../../../_static/images/vacagency/vacancy_item_sections.png \"صفحة "
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
-"الوظائف الشاغرة\")"
 
 #: ../../_docs/manage_settings/Configuring-workflows-for-moderation.md:1
 msgid "Workflows"
@@ -10139,13 +9964,6 @@ msgid ""
 "If you mark a layer as `Show on map by default`, it will be only shown when "
 "`Show Location Forecast Layer` or `Show CAP Warnings Layer` are disabled."
 msgstr ""
-<<<<<<< HEAD
-"إذا قمت بوضع علامة على طبقة على أنها `إظهار على الخريطة افتراضيًا`، فسيتم "
-"عرضها فقط عند تعطيل `إظهار طبقة توقعات الموقع` أو `إظهار طبقة تحذيرات CAP`."
-=======
-"إذا قمت بتمييز طبقة على أنها `إظهار على الخريطة افتراضيًا`، فسيتم عرضها فقط "
-"عند تعطيل `إظهار طبقة توقعات الموقع` أو `إظهار طبقة تحذيرات CAP`."
->>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_settings/index.md:1
 msgid "Configure Settings"
