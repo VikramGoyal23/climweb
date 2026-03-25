@@ -3545,7 +3545,11 @@ msgid ""
 "![CAP Hazard Types](../../_static/images/cap/CAP_Hazard_types.png \"CAP "
 "Hazard Types\")"
 msgstr ""
+<<<<<<< HEAD
 "![Tipos de peligros CAP](../../_static/images/cap/CAP_Hazard_types.png "
+=======
+"![Tipos de peligros CAP](../../_static/images/cap/CAP_hazard_types.png "
+>>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 "\"Tipos de peligros CAP\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26
@@ -3696,7 +3700,11 @@ msgid ""
 "![CAP Languages](../../_static/images/cap/cap_languages.png \"CAP "
 "Languages\")"
 msgstr ""
+<<<<<<< HEAD
 "![Idiomas CAP](../../_static/images/cap/cap_languages.png \"Idiomas CAP\")"
+=======
+"![Idiomas CAP](../../_static/images/cap/CAP_languages.png \"Idiomas CAP\")"
+>>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:70
 msgid "CAP Languages"

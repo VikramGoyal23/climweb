@@ -3470,7 +3470,11 @@ msgid ""
 "![CAP Hazard Types](../../_static/images/cap/CAP_Hazard_types.png \"CAP "
 "Hazard Types\")"
 msgstr ""
+<<<<<<< HEAD
 "![Aina za Hatari za CAP](../../_static/images/cap/CAP_Hazard_types.png "
+=======
+"![Aina za Hatari za CAP](../../_static/images/cap/CAP_hazard_types.png "
+>>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 "\"Aina za Hatari za CAP\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:26
@@ -3620,7 +3624,11 @@ msgid ""
 "![CAP Languages](../../_static/images/cap/cap_languages.png \"CAP "
 "Languages\")"
 msgstr ""
+<<<<<<< HEAD
 "![CAP Languages](../../_static/images/cap/cap_languages.png \"CAP "
+=======
+"![CAP Languages](../../_static/images/cap/CAP_languages.png \"CAP "
+>>>>>>> b2dbe435396574d2dcfb0d049872bb67c70a57d1
 "Languages\")"
 
 #: ../../_docs/manage_cap/CAP-Base-Settings.md:70
